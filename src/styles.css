@@ -96,3 +96,75 @@ hr.emergency {
     margin: 30px 0;
 }
 
+ul {
+    list-style: disc;
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+ul, ol {
+    margin: 0 0 1.5em 3em;
+
+}
+
+ul{
+    display: block;
+}
+#navigation .container {
+    display: block;
+    margin: 0;
+}
+
+#navigation nav {
+    background-color: #000E;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    transition: .2s ease all;
+    transform: translateY(0%);
+}
+
+#navigation nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#navigation nav ul li {
+    display: block;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 2px;
+    padding-left: 5px;
+}
+
+button {
+    appearance: auto;
+    writing-mode: horizontal-tb !important;
+
+    text-rendering: auto;
+   
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+   
+    margin: 0em;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-image: initial;
+}
