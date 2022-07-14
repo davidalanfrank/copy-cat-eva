@@ -1,0 +1,2992 @@
+<!--parent-->
+
+<div id="root" class="site">
+  <div id="navigation">
+    <div class="container">
+      <nav
+        class="menu"
+        [ngClass]="this.menuToggleActive ? 'active' : ''"
+        aria-labelledby="menu-label"
+        id="menu"
+      >
+        <ul>
+          <li>
+            <a href="#cinema">Cinema</a>
+          </li>
+          <li>
+            <a href="#cinema">All Editions</a>
+          </li>
+          <li>
+            <a href="#cinema">Ultimate Editions</a>
+          </li>
+          <li>
+            <a href="#cinema">Comparison</a>
+          </li>
+          <li>
+            <a href="#cinema">FAQ</a>
+          </li>
+          <li>
+            <a href="#cinema" onclick="openUSAUS()">US/AU</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="menu-options">
+        <span hidden id="menu-label">Menu Toggle</span>
+        <button
+          class="menu-toggle"
+          [ngClass]="this.menuToggleActive ? 'active' : ''"
+          id="menu-toggle"
+          aria-labelledby="menu-label"
+          aria-expanded=""
+          (click)="this.openMenu()"
+        >
+          <img
+            src="https://evangelion.alltheanime.com/img/nge_arrow--bottom__nav.png"
+            alt=""
+          />
+        </button>
+      </div>
+    </div>
+  </div>
+  <main style="height: 100rem">
+    <section class="landing">
+      <div class="container fade-in-image">
+        <img
+          id="lotgh-logo"
+          src="https://evangelion.alltheanime.com/img/NGE_TT_800w.png"
+          alt="evangelion logo"
+          style="transform: translate(0px, 0px); opacity: 1"
+        />
+      </div>
+    </section>
+    <hr class="emergency" />
+
+    <section class="cinema" id="cinema">
+      <div class="container" style="margin-bottom: 24px">
+        <div class="content">
+          <div class="container">
+            <img
+              src="https://evangelion.alltheanime.com/img/cinema-poster.jpg"
+              alt="Poster"
+              class="popin"
+            />
+          </div>
+        </div>
+        <!-- content -->
+      </div>
+      <!--about __container -->
+      <header>
+        <div class="container">
+          <h2>
+            EVANGELION: DEATH(TRUE)
+            <sup>2</sup>
+          </h2>
+          <p>
+            Experiments conducted in Antarctica in 2000 have destroyed
+            humankind. People call that catastrophe the Second Impact. The
+            Earth’s axis was thrown off kilter, and the world population
+            decreased dramatically. Fifteen years later, humanity is again faced
+            with a trial. Mysterious giant beings called “Angels” appear, and
+            the Special Agency NERV works to fight them behind the scenes.
+            Shinji Ikari, a 14-year-old boy, becomes the center of this fight.
+            At the conclusion of worry, distrust, fear, anger, and endless
+            battles, he learns the true meaning of loneliness and despair.
+          </p>
+          <h2>THE END OF EVANGELION</h2>
+          <p>
+            This final movie version was created as an alternative ending to the
+            NEON GENESIS EVANGELION TV series, remaking the final two episodes
+            from the series. SEELE plans an attack on NERV after failing to
+            create a man-made Third Impact. After reaffirming both her own and
+            her mother’s existence in a state of despair, Asuka returns and
+            begins the counterattack. However, new enemies descend from the
+            heavens. Meanwhile, Shinji witnesses the horrifying wreckage of
+            Asuka’s EVA-02 while piloting EVA-01. Mass production models
+            surround EVA-01 and perform a solemn ceremony. What does it mean to
+            complete a human heart?
+          </p>
+          <p>This program is presented with its classic dub/subtitles.</p>
+        </div>
+      </header>
+      <header style="margin-top: 48px">
+        <div class="container">
+          <h2>11<sup>th</sup> November</h2>
+        </div>
+      </header>
+      <div class="container">
+        <div class="table-wrapper">
+          <table class="screenings">
+            <thead>
+              <tr>
+                <th>Location</th>
+                <th>Cinema</th>
+                <th>Language</th>
+                <th>Times</th>
+                <th>Tickets</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td rowspan="2">Andover</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Aylesbury</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Basingstoke</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Bath</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Beckenham</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Belfast</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Birmingham</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Birmingham Broadway Plaza</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Blackpool</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Bournemouth</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Bracknell</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Bridgend</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Brighton</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Bristol Cinema De Lux</td>
+                <td rowspan="2">Showcase</td>
+                <td rowspan="2">Dub</td>
+                <td>7:00:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.showcasecinemas.co.uk/film-info/evangelion-evangelion-deathtrue2-dub"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>9:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.showcasecinemas.co.uk/film-info/evangelion-the-end-of-evangelion-dub"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Briston Avonmeads</td>
+                <td rowspan="2">Showcase</td>
+                <td rowspan="2">Dub</td>
+                <td>7:00:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.showcasecinemas.co.uk/film-info/evangelion-evangelion-deathtrue2-dub"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>9:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.showcasecinemas.co.uk/film-info/evangelion-the-end-of-evangelion-dub"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Bromborough</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Cardiff</td>
+                <td rowspan="2">Showcase</td>
+                <td rowspan="2">Dub</td>
+                <td>7:00:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.showcasecinemas.co.uk/film-info/evangelion-evangelion-deathtrue2-dub"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>9:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.showcasecinemas.co.uk/film-info/evangelion-the-end-of-evangelion-dub"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Cardiff</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Chatham</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Chelmsford</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Colchester</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Coolock</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Coventry Cinema De Lux</td>
+                <td rowspan="2">Showcase</td>
+                <td rowspan="2">Dub</td>
+                <td>7:00:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.showcasecinemas.co.uk/film-info/evangelion-evangelion-deathtrue2-dub"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>9:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.showcasecinemas.co.uk/film-info/evangelion-the-end-of-evangelion-dub"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Coventry Skydome</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Crewe</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Derby Cinema De Lux</td>
+                <td rowspan="2">Showcase</td>
+                <td rowspan="2">Dub</td>
+                <td>7:00:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.showcasecinemas.co.uk/film-info/evangelion-evangelion-deathtrue2-dub"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>9:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.showcasecinemas.co.uk/film-info/evangelion-the-end-of-evangelion-dub"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Derby Cinema De Lux</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Dudley</td>
+                <td rowspan="2">Showcase</td>
+                <td rowspan="2">Dub</td>
+                <td>7:00:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.showcasecinemas.co.uk/film-info/evangelion-evangelion-deathtrue2-dub"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>9:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.showcasecinemas.co.uk/film-info/evangelion-the-end-of-evangelion-dub"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Dudley</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Dundee (Douglas Field)</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Dunfermline</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Durham</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">East Kilbride</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Edinburgh West</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Epsom</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Glasgow Cinema De Lux</td>
+                <td rowspan="2">Showcase</td>
+                <td rowspan="2">Dub</td>
+                <td>7:00:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.showcasecinemas.co.uk/film-info/evangelion-evangelion-deathtrue2-dub"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>9:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.showcasecinemas.co.uk/film-info/evangelion-the-end-of-evangelion-dub"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Glasgow Quay</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Greenwich</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Guildford</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Harrogate</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Hatfield</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Hereford</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Huddersfield</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Hull</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Kettering</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Kilmarnock</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Kingston</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Lee Valley</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Leeds Cinema De Lux</td>
+                <td rowspan="2">Showcase</td>
+                <td rowspan="2">Dub</td>
+                <td>7:00:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.showcasecinemas.co.uk/film-info/evangelion-evangelion-deathtrue2-dub"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>9:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.showcasecinemas.co.uk/film-info/evangelion-the-end-of-evangelion-dub"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Leeds Thorpe Park</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Leeds-Bradford</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Leicester</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Leicester Cinema De Lux</td>
+                <td rowspan="2">Showcase</td>
+                <td rowspan="2">Dub</td>
+                <td>7:00:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.showcasecinemas.co.uk/film-info/evangelion-evangelion-deathtrue2-dub"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>9:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.showcasecinemas.co.uk/film-info/evangelion-the-end-of-evangelion-dub"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Limerick</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Lincoln</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Liverpool Cinema De Lux</td>
+                <td rowspan="2">Showcase</td>
+                <td rowspan="2">Dub</td>
+                <td>7:00:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.showcasecinemas.co.uk/film-info/evangelion-evangelion-deathtrue2-dub"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>9:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.showcasecinemas.co.uk/film-info/evangelion-the-end-of-evangelion-dub"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Liverpool One</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Liverpool Switch Island</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Llanelli</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">London - Camden</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.showcasecinemas.co.uk/film-info/evangelion-evangelion-deathtrue2-dub"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">London - Holloway</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">London - Wimbledon</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Loughborough</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Maidenhead</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Maidstone</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Manchester Great Northern</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Mansfield</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Metrocentre</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Milton Keynes Stadium</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Newark</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Newcastle East</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Newham</td>
+                <td rowspan="2">Showcase</td>
+                <td rowspan="2">Dub</td>
+                <td>7:00:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.showcasecinemas.co.uk/film-info/evangelion-evangelion-deathtrue2-dub"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>9:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.showcasecinemas.co.uk/film-info/evangelion-the-end-of-evangelion-dub"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Northwich Baron's Quary</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Norwich</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Nottingham Cinema De Lux</td>
+                <td rowspan="2">Showcase</td>
+                <td rowspan="2">Dub</td>
+                <td>7:00:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.showcasecinemas.co.uk/film-info/evangelion-evangelion-deathtrue2-dub"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>9:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.showcasecinemas.co.uk/film-info/evangelion-the-end-of-evangelion-dub"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Nuneaton</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Oldham</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Orpington</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Oxford</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Paisley Cinema De Lux</td>
+                <td rowspan="2">Showcase</td>
+                <td rowspan="2">Dub</td>
+                <td>7:00:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.showcasecinemas.co.uk/film-info/evangelion-evangelion-deathtrue2-dub"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>9:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.showcasecinemas.co.uk/film-info/evangelion-the-end-of-evangelion-dub"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Peterborough Cinema De Lux</td>
+                <td rowspan="2">Showcase</td>
+                <td rowspan="2">Dub</td>
+                <td>7:00:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.showcasecinemas.co.uk/film-info/evangelion-evangelion-deathtrue2-dub"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>9:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.showcasecinemas.co.uk/film-info/evangelion-the-end-of-evangelion-dub"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Port Solent</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Preston</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Reading Cinema De Lux</td>
+                <td rowspan="2">Showcase</td>
+                <td rowspan="2">Dub</td>
+                <td>7:00:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.showcasecinemas.co.uk/film-info/evangelion-evangelion-deathtrue2-dub"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>9:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.showcasecinemas.co.uk/film-info/evangelion-the-end-of-evangelion-dub"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Rochdale</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Salisbury</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Sheffield</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">South Woodford</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Southampton</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Southampton Cinema De Lux</td>
+                <td rowspan="2">Showcase</td>
+                <td rowspan="2">Dub</td>
+                <td>7:00:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.showcasecinemas.co.uk/film-info/evangelion-evangelion-deathtrue2-dub"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>9:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.showcasecinemas.co.uk/film-info/evangelion-the-end-of-evangelion-dub"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Southend</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Stafford</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Stoke-on-Trent</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Streatham</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Surrey Quays</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Swadlincote</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Swansea</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Tamworth</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Taunton</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Teesside Cinema De Lux</td>
+                <td rowspan="2">Showcase</td>
+                <td rowspan="2">Dub</td>
+                <td>7:00:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.showcasecinemas.co.uk/film-info/evangelion-evangelion-deathtrue2-dub"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>9:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.showcasecinemas.co.uk/film-info/evangelion-the-end-of-evangelion-dub"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Telford</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Trafford Centre</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Trowbridge</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Tunbridge Wells</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Uxbridge The Chimes</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Warrington</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">West Bromwich</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Worcester</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Wrexham</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>6:30:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>8:50:00 PM</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <header style="margin-top: 48px">
+        <div class="container">
+          <h2>14<sup>th</sup> November</h2>
+        </div>
+      </header>
+      <div class="container">
+        <div class="table-wrapper">
+          <table class="screenings">
+            <thead>
+              <tr>
+                <th>Location</th>
+                <th>Cinema</th>
+                <th>Language</th>
+                <th>Times</th>
+                <th>Tickets</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td rowspan="2">Belfast</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>TBC</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>TBC</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Birmingham Broadway Plaza</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>TBC</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>TBC</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Bournemouth</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>TBC</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>TBC</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Braehead</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>TBC</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>TBC</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Brighton</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>TBC</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>TBC</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Cardiff</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>TBC</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>TBC</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Coolick</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>TBC</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>TBC</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Dundee (Douglas Field)</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>TBC</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>TBC</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Glasgow Quay</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>TBC</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>TBC</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Greenwich</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>TBC</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>TBC</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Guildford</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>TBC</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>TBC</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Kingston</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>TBC</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>TBC</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Lee Valley</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>TBC</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>TBC</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Leeds-Bradford</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>TBC</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>TBC</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Leicester</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>TBC</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>TBC</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Liverpool One</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>TBC</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>TBC</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Liverpool Switch Island</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>TBC</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>TBC</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">London - Haymarket</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>TBC</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>TBC</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">London - Holloway</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>TBC</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>TBC</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">London - Wimbledon</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>TBC</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>TBC</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Manchester Great Northern</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>TBC</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>TBC</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Metrocentre</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>TBC</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>TBC</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Milton Keynes Stadium</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>TBC</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>TBC</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Norwich</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>TBC</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>TBC</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Southampton</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>TBC</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>TBC</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2">Trafford Centre</td>
+                <td rowspan="2">Odeon</td>
+                <td rowspan="2">Dub</td>
+                <td>TBC</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---evangelion-deathtrue2-eng-dub/HO00002175/"
+                    >EVANGELION: DEATH(TRUE)<sup>2</sup></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>TBC</td>
+                <td>
+                  <a
+                    href="https://www.odeon.co.uk/films/evangelion---the-end-of-evangelion-eng-dub/HO00002176/"
+                    >THE END OF EVANGELION</a
+                  >
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+  </main>
+</div>
